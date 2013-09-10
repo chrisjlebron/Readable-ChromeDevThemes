@@ -45,7 +45,7 @@ body.platform-mac .monospace, body.platform-mac .source-code {
   font-size: 13px !important;
 }
 
-.toolbar-label {
+#-webkit-web-inspector .toolbar-label {
   font-weight: bold;
   color: #444 !important;
 }
@@ -289,7 +289,11 @@ body.platform-mac .monospace, body.platform-mac .source-code {
   color: #666 !important;
 }
 
-.tabbed-pane-header-tab {
+#-webkit-web-inspector .tabbed-pane-header-tab.selected {
+	background: white !important;
+}
+
+#-webkit-web-inspector .tabbed-pane-header-tab {
 	font-size: 13px;
 }
 
