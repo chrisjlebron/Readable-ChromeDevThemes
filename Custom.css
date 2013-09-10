@@ -36,9 +36,18 @@ Mac:
 #-webkit-web-inspector #console-message,
 #-webkit-web-inspector .text-editor-contents,
 #-webkit-web-inspector #console-view * {
-	font-size: 10px !important;
+	font-size: 13px !important;
 	line-height: 1.2em !important;
 	font-family: Menlo, "Consolas", monospace !important;
+}
+
+body.platform-mac .monospace, body.platform-mac .source-code {
+  font-size: 13px !important;
+}
+
+.toolbar-label {
+  font-weight: bold;
+  color: #444 !important;
 }
 
 /*	Html inspect area
@@ -273,10 +282,12 @@ Mac:
 
 #-webkit-web-inspector #main-panels .pane > .title,
 #-webkit-web-inspector #main-panels .sidebar-separator,
+#-webkit-web-inspector #main-panels .sidebar-pane-title,
 #-webkit-web-inspector #main-panels .sidebar-pane-subtitle {
-
+  font-size: 13px;
+  font-weight: bold;
+  color: #666 !important;
 }
 
 #-webkit-web-inspector .split-view-sidebar-right .webkit-css-property {
 }
-
