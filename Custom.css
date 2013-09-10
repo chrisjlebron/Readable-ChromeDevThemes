@@ -289,5 +289,9 @@ body.platform-mac .monospace, body.platform-mac .source-code {
   color: #666 !important;
 }
 
+.tabbed-pane-header-tab {
+	font-size: 13px;
+}
+
 #-webkit-web-inspector .split-view-sidebar-right .webkit-css-property {
 }
