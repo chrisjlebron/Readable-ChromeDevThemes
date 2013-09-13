@@ -128,6 +128,10 @@ body.platform-mac .monospace, body.platform-mac .source-code {
 	margin-bottom: 10px !important;
 }
 
+#elements-content .elements-drag-over {
+	box-shadow: 0 -2px #7d349d;
+}
+
 /*	------------------------------------------------
  *	End of Html inspect area /
 
