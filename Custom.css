@@ -114,6 +114,12 @@ body.platform-mac .monospace, body.platform-mac .source-code {
     margin-bottom: 0 !important;
 }
 
+#-blink-dev-tools .elements .crumb.selected {
+    background: #228ec3 !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+
 /* wrap expanded style */
 #elements-content .parent.selected + *.expanded
 {
