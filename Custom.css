@@ -132,9 +132,9 @@ body.platform-mac .monospace, body.platform-mac .source-code {
 }
 
 
-#-blink-dev-tools .outline-disclosure li.elements-drag-over .selection {
+#-blink-dev-tools .outline-disclosure li.elements-drag-over {
     box-shadow: 0 -2px #7d349d;
-    /*border-top: 2px solid #7d349d;*/
+    /*border-top: 2px solid #7d349d !important;*/
 }
 
 
