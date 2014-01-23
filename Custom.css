@@ -299,8 +299,14 @@ body.platform-mac .monospace, body.platform-mac .source-code {
   color: #666 !important;
 }
 
-#-blink-dev-tools .tabbed-pane-header-tab.selected {
-	background: white !important;
+#-blink-dev-tools .split-view-contents-first .tabbed-pane-header-tab.selected {
+    background: #eee !important;
+  /*-webkit-border-image: none !important;*/
+}
+
+#-blink-dev-tools .split-view-contents-second .tabbed-pane-header-tab.selected {
+    background: #fff !important;
+  /*-webkit-border-image: none !important;*/
 }
 
 
