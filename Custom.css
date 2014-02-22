@@ -117,7 +117,7 @@ body.platform-mac .monospace, body.platform-mac .source-code {
 #-blink-dev-tools .elements .crumb.selected {
     background: #228ec3 !important;
     color: #fff !important;
-    box-shadow: none;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.1);
 }
 
 /* wrap expanded style */
